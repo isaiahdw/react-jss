@@ -1,6 +1,7 @@
 'use strict';
 
-var jss = require('jss');
+var nested = require('jss-nested');
+jss.use(nested);
 
 function useSheet(rules, options) {
   var refs = 0,
