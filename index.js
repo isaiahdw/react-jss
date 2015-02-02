@@ -1,13 +1,12 @@
 'use strict';
 
 var jss = require('jss');
+var nested = require('jss-nested');
+jss.use(nested);
 
 function useSheet(rules, options) {
   var refs = 0,
       sheet;
-
-  if (!options) options = {};
-  if (options.named == null) options.named = true;
 
   function attach() {
     if (!sheet)
