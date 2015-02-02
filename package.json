@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/jsstyles/react-jss",
   "peerDependencies": {
-    "jss": "0.x",
+    "jss": "^1.0.0",
     "react": ">=0.12"
   }
 }
