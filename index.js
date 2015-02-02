@@ -1,5 +1,6 @@
 'use strict';
 
+var jss = require('jss');
 var nested = require('jss-nested');
 jss.use(nested);
 
